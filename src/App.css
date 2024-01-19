@@ -1,0 +1,65 @@
+*,
+body {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Grape Nuts', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2rem;
+  cursor: pointer;
+}
+.container {
+  margin: 0px auto;
+  height: 100%;
+  width: 100%;
+  max-width: 680px;
+  padding: 25px;
+}
+.button {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 16px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(183, 45, 45);
+  transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3) 0s;
+  box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
+  border-radius: 4px;
+  transition: all 0.5s;
+  background: #f7f7f8;
+}
+.link {
+  margin: 0px;
+  border: none;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  text-align: center;
+  cursor: pointer;
+  background: none;
+  text-decoration: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: auto;
+  position: relative;
+  padding: 16px 20px;
+  width: 100%;
+  appearance: none;
+  vertical-align: middle;
+  font-size: 1.5rem;
+}
+.button:hover {
+  transform: scale(1.02);
+}
+.link:visited {
+  color: black;
+}
