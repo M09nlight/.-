@@ -38,14 +38,13 @@ body {
   width: 100%;
   overflow: hidden;
   margin-bottom: 16px;
-  border: none;
-  background-color: rgba(255, 255, 255, 0.8);
-
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 8px 24px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
   transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3) 0s;
-  box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
-  border-radius: 4px;
   transition: all 0.5s;
-  background: #f7f7f8;
 }
 .link {
   color: #18181b;
@@ -71,6 +70,7 @@ body {
   vertical-align: middle;
   font-size: 1.5rem;
 }
+
 .button:hover {
   transform: scale(1.02);
 }
