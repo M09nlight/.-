@@ -25,6 +25,7 @@ function App() {
       <div className="button">
         <a href="https://instagram.com/eilmoon" target="blank" className="link">
           inst
+          <img src="heart.png" alt="" className="heart" />
         </a>
       </div>
       <div className="button">
