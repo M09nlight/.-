@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
 }
 body {
-  font-family: 'Grape Nuts', cursive;
+  font-family: "Grape Nuts", cursive;
   font-weight: 400;
   font-style: normal;
   background: #9b92a2;
@@ -22,23 +22,32 @@ body {
 .title:hover {
   transform: scale(1.1);
 }
+.titleAbsolute {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #ffffffd9;
+  padding: 1rem;
+  z-index: 9999;
+}
 .heart {
   padding-left: 5px;
 }
-.container {
+.containerApp {
   margin: 0px auto;
   height: 100%;
   width: 100%;
   max-width: 680px;
   padding: 25px;
-  background: url('../public/back.png') 0 0 / 100% 100% no-repeat;
+  background: url("../public/back.png") 0 0 / 100% 100% no-repeat;
   min-height: 100vh;
 }
 .button {
   width: 100%;
   overflow: hidden;
   margin-bottom: 16px;
-  background: rgba(255, 255, 255, 0.85);
+  background: #ffffffd9;
   box-shadow: 0 8px 24px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
