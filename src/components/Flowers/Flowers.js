@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./Flowers.scss";
 import Title from "../Title/Title";
+import lu from "../../lu.mp3";
 
 export const Flowers = (props) => {
   useEffect(() => {
@@ -17,7 +18,7 @@ export const Flowers = (props) => {
   return (
     <div>
       <div className="not-loaded flowersBody">
-        <Title isAbsolute={true} />
+        <Title isAbsolute={true} mp3={lu} />
         <div className="night"></div>
         <div className="flowers">
           <div className="flower flower--1">

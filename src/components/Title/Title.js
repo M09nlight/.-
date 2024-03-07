@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
-import mp3 from "../../love.mp3";
 
-export default function Title({ isAbsolute }) {
+export default function Title({ isAbsolute, mp3 }) {
   const music = useRef();
   const [play, setPlay] = useState(false);
 
