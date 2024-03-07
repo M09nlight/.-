@@ -5,7 +5,7 @@ import { Flowers } from "./components/Flowers/Flowers";
 
 function App() {
   const date = new Date();
-  const isWomanDay = date.getMonth() === 2 && date.getDate() === 7;
+  const isWomanDay = date.getMonth() === 2 && date.getDate() === 8;
   return <>{!isWomanDay ? <LinksInfo /> : <Flowers />}</>;
 }
 
