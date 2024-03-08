@@ -5,15 +5,13 @@ import lu from "../../lu.mp3";
 
 export const Flowers = (props) => {
   useEffect(() => {
-    window.onload = () => {
-      const c = setTimeout(() => {
-        const root = document.querySelector(".not-loaded");
-        if (root) {
-          root.classList.remove("not-loaded");
-          clearTimeout(c);
-        }
-      }, 1000);
-    };
+    const c = setTimeout(() => {
+      const root = document.querySelector(".not-loaded");
+      if (root) {
+        root.classList.remove("not-loaded");
+        clearTimeout(c);
+      }
+    }, 1000);
   }, []);
   return (
     <div>
