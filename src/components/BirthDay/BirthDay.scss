@@ -1,0 +1,17 @@
+.birthday {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffffd9;
+  font-family: "Source Sans Pro";
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+  text-align: center;
+  cursor: pointer;
+}
+body {
+  overflow: hidden;
+}
