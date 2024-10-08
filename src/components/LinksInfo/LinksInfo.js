@@ -4,7 +4,7 @@ import Title from '../Title/Title';
 
 export default function LinksInfo() {
   return (
-    <div className='containerApp'>
+    <div className="containerApp">
       <Title mp3={mp3} />
       {/* <div className="button">
         <a href="https://instagram.com/eilmoon" target="blank" className="link">
@@ -21,16 +21,16 @@ export default function LinksInfo() {
           tg
         </a>
       </div> */}
-      <div className='button'>
+      {/* <div className='button'>
         <a href='https://t.me/m09nlight' target='blank' className='link'>
           To the Moon ☾
         </a>
-      </div>
-      <div className='button'>
+      </div> */}
+      <div className="button">
         <a
-          href='https://www.donationalerts.com/r/eilmoon'
-          target='blank'
-          className='link'
+          href="https://www.donationalerts.com/r/hghrsttsf"
+          target="blank"
+          className="link"
         >
           donationalerts
         </a>
