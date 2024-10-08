@@ -5,7 +5,7 @@ import Title from '../Title/Title';
 export default function LinksInfo() {
   return (
     <div className="containerApp">
-      <Title mp3={mp3} />
+      <Title mp3={mp3} text="x" />
       {/* <div className="button">
         <a href="https://instagram.com/eilmoon" target="blank" className="link">
           inst
